@@ -1,6 +1,7 @@
 baseURL: "https://www.desmondchin.com/"
 title: Desmond Chin
-paginate: 10
+pagination:
+  pagerSize: 10
 theme: PaperMod
 
 params:
@@ -23,7 +24,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   # home-info mode
@@ -32,12 +33,12 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: itchio 
-      url: "https://dsychin.itch.io"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/dsychin"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/dsychin/"
+    - name: itchio
+      url: "https://dsychin.itch.io"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -45,7 +46,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/dsychin/desmondchin.com/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -80,4 +81,3 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
